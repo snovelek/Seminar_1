@@ -2,3 +2,10 @@
 //4 -> да
 //-3 -> нет
 //7 -> нет
+
+Console.Write("Введите число: ");
+int n=Convert.ToInt32(Console.ReadLine());
+if (n%2==0)
+    Console.Write("Да");
+else
+    Console.Write("Нет");
