@@ -12,7 +12,8 @@ if (n1>n2){
     Console.WriteLine(n1);
     Console.Write("Min = ");
     Console.WriteLine(n2);
-} else{
+} 
+else{
     Console.Write("Max = ");
     Console.WriteLine(n2);
     Console.Write("Min = ");
