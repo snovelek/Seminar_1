@@ -6,11 +6,11 @@ int n = Convert.ToInt32(Console.ReadLine());
 int n_inv =n*-1;
 while (n_inv<=n) {
     if (n_inv!=n){
-        Console.Write(Convert.ToString(n_inv));
+        Console.Write(n_inv);
         Console.Write(", ");
     }
     else{
-        Console.Write(Convert.ToString(n_inv));
+        Console.Write(n_inv);
         Console.Write(".");
     }
     n_inv++;
